@@ -1,0 +1,123 @@
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  
+  }
+
+  body{
+    font-family: "nunito", sans-serif;
+}
+
+
+h1{
+  font-size: 3rem;
+}
+
+h3{
+  text-align: center;
+}
+h4{
+  margin-bottom: 20px;
+  color: green;
+}
+
+h6{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+p{
+  font-size: 1.4rem;
+}
+
+.imgBackground{
+  width: 20%;
+  height: auto;
+  border: 2px solid orangered;
+  border-radius: 10px 0px 10px 0px;
+  margin: 3rem auto;
+  margin-left: 40%;
+  
+}
+
+#aboutMe{
+  font-style: raleway; 
+  font-size: large; color: #000000; 
+  background-color: lightgray; 
+  border-radius: 3px;
+}
+
+footer{
+  background-color: rgb(19, 18, 18);
+  color: aliceblue;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: ;
+}
+
+footer li{
+  list-style: none;
+  display: inline-flex;
+  margin-right: 15px ;
+}
+
+ .address{
+   color: beige;
+   text-decoration: none !important;
+   
+ }
+
+ .address:hover{
+  color: palegreen;
+ }
+
+ .tradeMark a{
+   color: palegreen;
+   text-decoration: none !important;
+ }
+
+ .tradeMark a:hover{
+  color: rgb(56, 223, 223);
+  
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: azure;
+  }
+
+  .mainSection{
+
+    width: 100%;
+    height: auto;
+    margin: 2% 5%;
+    
+
+  }
+
+  #aboutMe{
+  font-style: raleway; 
+  font-size: medium; 
+  color: #000000; 
+  background-color: rgb(183, 247, 202); 
+  border-radius: 3px;
+  }
+
+  footer{
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: 0px auto !important;
+  }
+
+  .tradeMark {
+    text-decoration: none !important;
+    font-size: medium;
+  }
+
+  .tradeMark a {
+    color: palegreen;
+ 
+}

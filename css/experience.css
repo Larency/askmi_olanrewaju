@@ -1,0 +1,100 @@
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  
+  }
+
+  body{
+    font-family: "nunito", sans-serif;
+}
+
+ 
+h1{
+  font-size: 30px;
+}
+
+h4{
+  margin-bottom: 20px;
+  color: green;
+}
+
+h6{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.experience{
+  width: 60%;
+  height: auto;
+  padding: 2rem;
+  margin: 10px auto;
+  background: rgb(240, 238, 238);
+  display: block;
+}
+
+footer{
+  background-color: rgb(19, 18, 18);
+  color: aliceblue;
+  text-align: center;
+  padding: 40px auto;
+  padding-top: 20px;
+}
+
+footer li{
+  list-style: none;
+  display: inline-flex;
+  margin-right: 15px ;
+}
+
+ .address{
+   color: beige;
+   text-decoration: none !important;
+   
+ }
+
+ .address:hover{
+  color: palegreen;
+ }
+
+ .tradeMark a{
+   color: palegreen;
+   text-decoration: none !important;
+ }
+
+ .tradeMark a:hover{
+  color: rgb(56, 223, 223);
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color: azure;
+  }
+
+  #aboutMe{
+  font-style: raleway; 
+  font-size: medium; 
+  color: #000000; 
+  background-color: rgb(183, 247, 202); 
+  border-radius: 3px;
+  }
+
+  footer{
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: 0px auto !important;
+  }
+
+  .tradeMark {
+    text-decoration: none !important;
+    font-size: medium;
+  }
+
+  .tradeMark a {
+    color: palegreen;
+  }
+}
